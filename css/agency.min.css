@@ -3,6 +3,10 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ @font-face{
+    font-family: "FontStarve";
+    src: url("../vendor/font-awesome/fonts/Chica Gogo NF W01 Bold.ttf");
+ }
 .btn-primary.active, .btn-primary:active, .btn-xl.active, .btn-xl:active, .open .dropdown-toggle.btn-primary, .open .dropdown-toggle.btn-xl {
     background-image: none;
 }
@@ -17,10 +21,14 @@
 }
 
 #icon{
-	height: 75px;
-	width: 80px;
+	height: 80px;
+	width: 90px;
 	margin-top: -10%;
 	float: left;
+}
+.e{
+    transform: rotate(-30deg);
+    display: inline-block;
 }
 body {
     overflow-x: hidden;
@@ -105,7 +113,7 @@ a.active, a:active, a:focus, a:hover {
 }
 .navbar-custom .navbar-brand {
     color: #FFFFFF;
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-family: "FontStarve", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover {
     color: #FF7021;
