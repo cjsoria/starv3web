@@ -741,36 +741,6 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
-/*Css de la second page*/
-.top-content {
-    margin: 0 auto;
-    text-align: left;
-    color: #fff;
-}
-
-.inner-bg {
-    padding: 80px 0;
-}
-
-.top-content .phone {
-	text-align: center;
-}
-
-.top-content .text {
-	padding-top: 100px;
-}
-
-.top-content .descripcion {
-	margin: 40px 0 10px 0;
-    font-size: 50px;
-    line-height: 36px;
-}
-
-
-.top-content .top-button {
-	margin-top: 40px;
-}
-/*----------------------*/
 body {
   webkit-tap-highlight-color: #fed136;
 }
